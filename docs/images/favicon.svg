@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Sun circle -->
+  <circle cx="22" cy="7" r="5" fill="#D4A843"/>
+  <!-- Mountains -->
+  <g fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="2,24 10,6 18,24"/>
+    <polyline points="14,24 22,6 30,24"/>
+  </g>
+  <!-- Horizontal lines -->
+  <g stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round">
+    <line x1="1" y1="25" x2="31" y2="25"/>
+    <line x1="3" y1="28" x2="29" y2="28"/>
+  </g>
+</svg>
