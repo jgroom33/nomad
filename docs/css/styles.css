@@ -10,7 +10,7 @@
   --color-white: #FFFFFF;
 
   --font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  --nav-height: 70px;
+  --nav-height: 80px;
   --container-width: 1100px;
   --transition: 0.3s ease;
 }
@@ -119,7 +119,7 @@ a {
 }
 
 .nav__logo .logo {
-  height: 45px;
+  height: 55px;
   width: auto;
 }
 
@@ -199,6 +199,11 @@ a {
   max-width: 700px;
   position: relative;
   z-index: 1;
+}
+
+.hero__logo {
+  width: 280px;
+  margin: 0 auto 32px;
 }
 
 .hero__title {
@@ -471,7 +476,7 @@ a {
 }
 
 .footer__logo {
-  height: 40px;
+  height: 60px;
   width: auto;
 }
 
@@ -525,6 +530,11 @@ a {
 @media (min-width: 1024px) {
   .services__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero__logo {
+    width: 360px;
+    margin-bottom: 40px;
   }
 
   .hero__title {
