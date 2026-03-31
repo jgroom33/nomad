@@ -113,7 +113,12 @@ a {
   padding: 0 20px;
 }
 
-.nav__logo img {
+.logo {
+  display: block;
+  color: var(--color-white);
+}
+
+.nav__logo .logo {
   height: 45px;
   width: auto;
 }
